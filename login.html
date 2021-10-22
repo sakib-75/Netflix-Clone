@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/netflix.png" />
+    <link rel="stylesheet" href="CSS/login-style.css">
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="img/Netflix-Logo.png" class="logo" alt="">
+    </header>
+
+    <div class="login-container">
+        <h1 class="title">Sign In</h1>
+
+        <div class="input-group">
+            <input class="input" type="email" name="email" onblur="createClass()">
+            <span class="input-span">Email or phone number</span>
+        </div>
+        <div class="input-group">
+            <input class="input" type="password" name="password" onblur="createClass()">
+            <span class="input-span">Password</span>
+        </div>
+
+        <button type="submit" class="login-button">Sign In</button>
+
+        <input type="checkbox" id="checkbox">
+        <span>Remember me</span>
+        <a href="#" class="need-help">Need help?</a>
+
+        <div class="fb-login">
+            <img src="img/facebook.png" alt="">
+            <a href="">Login with facebook</a>
+        </div>
+        <p>New to Netflix? <a href="index.html" class="signup-link">Sign up now.</a></p>
+        <span class="captcha-text">This page is protected by Google reCAPTCHA to ensure you're not a bot.
+            <a href="#" class="learn-more">Learn more.</a></span>
+    </div>
+
+    <footer class="login-footer">
+        <div class="footer-container">
+            <div class="sec1">
+                <a href="">Questions? Contact us.</a>
+                <a href="">FAQ</a>
+                <a href="">Cookie Preferences</a>
+            </div>
+            <div class="sec2">
+                <div class="flex">
+                    <a href="">Help Center</a>
+                    <a href="">Corporate Information</a>
+                </div>
+            </div>
+            <div class="sec3">
+                <a href="">Terms of Use</a>
+            </div>
+            <div class="sec4">
+                <a href="">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

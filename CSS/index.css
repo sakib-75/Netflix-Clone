@@ -1,0 +1,475 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 700px;
+    width: 100%;
+    border-bottom: 8px solid #222;
+    background-image: url(../img/overlay-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-bar {
+    margin: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 180px;
+}
+
+.signin-btn {
+    padding: 7px 17px;
+    color: white;
+    background-color: #e50914;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hero {
+    color: white;
+    width: 950px;
+    padding: 75px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    max-width: 640px;
+    margin: auto;
+}
+
+.hero h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.hero h3 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.email-box {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    width: 450px;
+    position: relative;
+    background-color: white;
+}
+
+.input-span {
+    color: #8C8CAA;
+    font-size: 16px;
+    position: absolute;
+    display: block;
+    left: 10px;
+    top: 22px;
+    pointer-events: none;
+    transition: all 0.1s;
+}
+
+.email-input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #8C8C8C;
+    background-color: transparent;
+}
+
+.email-input:focus {
+    border: 1px solid #519DFB;
+}
+
+.email-input:focus+.input-span {
+    top: 5px;
+    font-size: 12px;
+}
+
+.has-val+.input-span {
+    top: 5px;
+    font-size: 12px;
+}
+
+.get-start-btn {
+    padding: 0px 26px;
+    color: white;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    background-color: #F01D22;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+}
+
+.get-start-btn:hover {
+    background-color: #FF1E22;
+}
+
+.right-icon {
+    -webkit-text-stroke: 2px #FF1E22;
+}
+
+/* ..........................Enjoy tv .....................*/
+
+.section {
+    padding: 70px 30px;
+    background-color: #000000;
+    border-bottom: 8px solid #222222;
+}
+
+.title1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.grid-body img {
+    max-width: 100%;
+}
+
+.grid-body {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.card-bdy {
+    position: relative;
+}
+
+.card {
+    width: 70%;
+    padding: 8px 12px;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translate(-50%);
+    background-color: #000000;
+    border: 2px solid #404040;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50px auto;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.card img {
+    height: 72px;
+    width: 50px;
+}
+
+.card-text span:first-child {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+
+.card-text span:last-child {
+    color: #0071EB;
+    font-size: 15px;
+    display: block;
+}
+
+.w-t-m {
+    margin-top: 0;
+}
+
+.gb2 {
+    grid-template-columns: 500px auto;
+    column-gap: 0;
+}
+
+.center-title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.faq-body {
+    max-width: 815px;
+    margin: 50px auto;
+}
+
+.faq {
+    margin-bottom: 10px;
+}
+
+.last-faq {
+    margin-bottom: 0;
+}
+
+.faq-button {
+    color: white;
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 1px;
+    border: none;
+    outline: none;
+    padding: .8em 2.2em .8em 1.2em;
+    background-color: #303030;
+    cursor: pointer;
+}
+
+.faq-icon {
+    -webkit-text-stroke: 2px #303030;
+    position: absolute;
+    right: 1em;
+    top: 20px;
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    display: none;
+    width: 100%;
+    padding: 30px;
+    background-color: #303030;
+}
+
+.faq-text {
+    color: white;
+    font-size: 24px;
+}
+
+.r-to-w {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer {
+    color: #757575;
+    padding: 50px 30px;
+    background-color: #000000;
+}
+
+.footer-box {
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.footer-grid a,
+.contact-link {
+    color: #757575;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer-grid a:hover,
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.contact-link {
+    margin-bottom: 30px;
+}
+
+.netflix-span {
+    display: block;
+    margin-top: 30px;
+}
+
+
+
+/* ....................Responsive.......................*/
+
+
+
+@media only screen and (max-width: 448px) {
+
+    .card {
+        column-gap: 0px;
+    }
+
+    .card img {
+        height: 48px;
+        width: 35px;
+    }
+
+    .card-text span:first-child {
+        font-size: 14px;
+    }
+
+    .card-text span:last-child {
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .header {
+        height: 500px;
+    }
+
+    .top-bar {
+        margin: 0px 20px;
+    }
+
+    .logo {
+        height: 60px;
+        width: 100px;
+    }
+
+    .signin-btn {
+        font-size: 14px;
+        padding: 4px 8px;
+        border-radius: 3px;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 75px 20px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .hero h2,
+    .hero h3 {
+        font-size: 18px;
+    }
+
+    .email-box {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+    .input-group {
+        height: 48px;
+        width: 100%;
+    }
+
+    .input-span {
+        top: 16px;
+    }
+
+    .email-input {
+        padding-top: 8px;
+    }
+
+    .email-input:focus+.input-span {
+        top: 4px;
+        font-size: 11px;
+    }
+
+    .has-val+.input-span {
+        top: 3px;
+        font-size: 11px;
+    }
+
+    .get-start-btn {
+        height: 40px;
+        width: 150px;
+        margin: auto;
+        font-size: 16px;
+        border-radius: 2px;
+    }
+
+    .faq-button,
+    .faq-text {
+        font-size: 18px;
+    }
+    .faq-icon {
+        top: 15px;
+    }
+
+}
+
+
+@media only screen and (max-width: 950px) {
+
+    .section {
+        padding: 50px 20px;
+    }
+
+    .title1 {
+        font-size: 26px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .title2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .grid-body {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .col2,
+    .col1 {
+        margin: auto;
+    }
+
+    .no-gap {
+        row-gap: 0;
+    }
+    .footer-grid{
+        grid-template-columns: auto auto;
+    }
+
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 767px) and (max-width: 1010px) {
+    .hero {
+        width: 90%;
+    }
+
+}
