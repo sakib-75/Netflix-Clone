@@ -1,4 +1,3 @@
-# netflix
-Netflix clone
+### Netflix home page & login page
 
-<a href="https://netflix-clone-sakib.netlify.app/"><h2> Click here to visit this site </h2></a>
+[Click here to visit this site](https://netflix-clone-sakib.netlify.app)
